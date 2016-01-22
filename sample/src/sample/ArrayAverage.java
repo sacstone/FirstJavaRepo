@@ -23,11 +23,33 @@ public class ArrayAverage {
 				inData = stdin.readLine();
 				int n1 = Integer.parseInt(inData);
 				
+				n[i][j] = n1;
+				k++;
+				
 			}
 			
 			
 			
 		}
+		
+		System.out.println("");
+		System.out.println("=============");
+		System.out.println(" ");
+		int ave = 0;
+		for(int row = 0; row < 4; row++) {
+			
+			for(int column = 0; column < 5; column++) {
+				
+				System.out.print(n[row][column] + " ");
+				ave = ave+ n[row][column];
+				//System.out.print(ave);
+			}
+			System.out.println(ave/5);
+			ave = 0;
+			System.out.println();
+		}
+		
+		
 				
 
 	}
