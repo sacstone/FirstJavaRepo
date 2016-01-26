@@ -1,0 +1,100 @@
+Class notes for 02-25-16
+
+This class mainly discussed on Operators.
+
+There are three types of operators
+
+1. Arthemetic operators
+ex: +, -, *, /, %, +=, -=, *=, /=, %=, ++, --
+
+2. Relational operators
+
+Ex.==, !=, >, <, >=, <=
+
+3. Bollean and Logical Operators
+
+Ex:
+
+Logical AND = &
+Logical OR = |
+
+Short-circuit AND = &&
+Short circuit OR = |
+
+The difference between logical and Short circuit operators are when you use logical operator even if the first
+Statement is not true, the second statement is executed..
+
+Example if ( (age 1 > age 2) & (age 1 > age2++))
+
+in the above statement even if age 1 is not greater than age2, the second statement get executed.
+Most of the times it is used to assign something to check some condition and assign the value anyway.
+
+In short-circuit and if the first statement evaluated to False it will not evaluate the second of the statement
+
+Examples:
+
+Arithmetic Operators:
+
+Addition: +
+Subtraction: _
+Multiplication:*
+Division:/
+Modulus: %
+Increment: ++
+Decrement: --
+
+Relational Operators:
+
+Equal to : ==
+Not Equal to:!=
+greater than: >
+Less than: <
+Greater than or equal to: >=
+Less than or equal to : <=
+
+Bitwise Operators:
+
+it is applied to only integer types of byte, short, int, long and char
+
+Bitwise  AND: &
+Bitwise  OR: |
+Bitwise XOR: ^
+Bitwise complement: ~
+LeftShift: <<
+Right Shift: >>
+Zero Fill Right: >>>
+
+Logical Operators:
+
+AND: &&
+NOT: !
+OR : ||
+
+Assignment Operators:
+
+Simple Assignment Operator: =
+Add AND Assignment: +=
+Subtract AND assign: -+
+Multiply AND assign: *=
+Division AND assign: /=
+Modulus AND Assign: %=
+Left Shift AND Assign: <<=
+Right Shit AND Assign = >>=
+Bitwise And AND Assign: &=
+Bitwise OR AND assign: |=
+Bitwise Exclusive OR AND assignment : ^=
+
+!=
++=
+-+
+*=
+/=
+%=
+
+
+
+
+
+
+
+
