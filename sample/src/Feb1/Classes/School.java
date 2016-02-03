@@ -38,6 +38,9 @@ public class School {
 		
 		ramesh.printMessage();
 		
+		Loan amount = new Loan();
+		double r = amount.loan(20000, 2.5, 20000, 6);
+		System.out.println(r);
 		
 		
 		

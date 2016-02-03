@@ -5,7 +5,7 @@ public class Employee {
 	String id;
 	String department;
 	String manager;
-	static int salary;
+	static double salary;
 	Address address;
 	String approver;
 	static int yearsInService;
@@ -13,7 +13,7 @@ public class Employee {
 	public static boolean isEligibleForPromotion(){
 		
 		if (yearsInService > 5) {
-			salary = salary * 2;
+			salary = salary * 1.05;
 			
 			return true;
 			
